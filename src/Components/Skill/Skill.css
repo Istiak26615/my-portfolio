@@ -1,0 +1,12 @@
+.skill{
+    margin: 20px;
+    padding-top: 20px;
+    padding-bottom: 20;
+    border:none  ! important;
+    height: 100%
+}
+
+.card-img{
+    height: 200px;
+    width: 100%;
+}

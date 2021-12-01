@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import './Contact.css'
 
 const Contact = () => {
     const form = useRef();
@@ -16,25 +17,24 @@ const Contact = () => {
       e.target.reset();
   };
     return (
-      <div className="row container">
+      <div className="container justify-content-center">
+        <h1 className="text-center">Contact</h1>
+      <div className="row container justify-content-center">
+      
         <div className="col-md-4">
-          {/* Address:<br/>
-          Boro Dewra, Tongi, Gazipur<br/>
-          Contact:<br/>
-          01679248713<br/> */}
-
 
         </div>
         <div className="align-items-center col-md-4">
           <form ref={form} onSubmit={sendEmail}>
-      <label>Name  </label><br/>
-      <input type="text" name="name" /><br/>
-      <label>Email</label><br/>
-      <input type="user_email" name="email" /><br/>
-      <label>Message</label><br/>
-      <textarea name="message" /><br/>
-      <input type="submit" value="Send" /><br/>
+      <br/>
+      <input className="m-2 p-2" placeholder="Name" type="text" name="name" /><br/>
+      {/* <label>Email</label><br/> */}
+      <input className="m-2 p-2" placeholder="Email" type="user_email" name="email" /><br/>
+      {/* <label>Message</label><br/> */}
+      <textarea className="m-2 p-3" placeholder="Message" name="message" /><br/>
+      <input className="btn btn-primary m-2" type="submit" value="Send" /><br/>
     </form>
+        </div>
         </div>
         </div>
     );

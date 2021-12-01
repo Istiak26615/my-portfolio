@@ -9,7 +9,8 @@ const Skills = () => {
         .then(data=>setSkills(data))
     },[])
     return (
-        <div className=" container skills">
+        <div className=" container skills justify-content-center">
+            <h1 className="text-center">Projects</h1>
                   
         <div className="row">       
             {
@@ -21,3 +22,6 @@ const Skills = () => {
 };
 
 export default Skills;
+
+
+

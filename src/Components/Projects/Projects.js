@@ -5,7 +5,8 @@ import './Projects.css'
 const Projects = () => {
     return (
         <div>
-        <div className="col-md-6 skillLine container">
+        <div className="col-md-6 skillLine container justify-content-center">
+            <h1 className="text-center">Skills</h1>
             <h3>Html</h3>
             <LinearProgress color="primary" variant="determinate" value={80}/><p>80%</p>
             <h3>CSS</h3>

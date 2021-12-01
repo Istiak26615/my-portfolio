@@ -8,6 +8,7 @@ import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Contact from './Components/Contact/Contact';
 import Banner from './Components/Banner/Banner';
+import ProjectDetails from './Components/ProjectDetails/ProjectDetails';
 
 function App() {
   return (
@@ -19,19 +20,13 @@ function App() {
         <Switch>
         <Route exact path="/">
         <Banner></Banner>
-        </Route>
-        <Route exact path="/">
         <About></About>
-        </Route>
-        <Route exact path="/">
         <Skills></Skills>
-        </Route>
-        <Route exact path="/">
         <Projects></Projects>
-        </Route>
-        <Route exact path="/">
         <Contact></Contact>
+        <Footer></Footer>
         </Route>
+  
         <Route exact path="/about">
         <About></About>
         </Route>
@@ -44,8 +39,11 @@ function App() {
         <Route exact path="/contact">
         <Contact></Contact>
         </Route>
+        <Route exact path="/projectDetails/:id">
+            <ProjectDetails></ProjectDetails>
+          </Route>
         </Switch>
-        <Footer></Footer>
+        
       </Router>
       
       

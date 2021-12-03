@@ -1,8 +1,11 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import './Contact.css'
+import './Contact.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+  AOS.init();
     const form = useRef();
 
   const sendEmail = (e) => {
@@ -19,7 +22,7 @@ const Contact = () => {
     return (
       <div className="container justify-content-center">
         <h1 className="text-center">Contact</h1>
-      <div className="row container justify-content-center">
+      <div data-aos="fade-up" className="row container justify-content-center">
       
         <div className="col-md-4">
 

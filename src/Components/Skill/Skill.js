@@ -1,13 +1,16 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './Skill.css'
+import './Skill.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Skill = (props) => {
+    AOS.init();
     const{id,name,projectType, technologies, description,image}=props.skill
     return (
         
-        <div className="col-md-3 skill justify-content-center">
+        <div data-aos="flip-left" className="col-md-3 skill justify-content-center">
             
              
               <Card style={{ width: '18rem', height:"100%"}} className="fullcard" >

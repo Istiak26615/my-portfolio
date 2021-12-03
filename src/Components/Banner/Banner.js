@@ -15,7 +15,7 @@ const Banner = () => {
                  <a data-aos="fade-up" href="https://drive.google.com/file/d/1e-eaFpYI8h-x_jbyB0Z7yoqLkM532luq/view?usp=sharing" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">My Resume</a>
             </div>
             <div className="col-md-6 about">
-                <img data-aos="fade-down" className="bannerimg"  src="https://www.cmarix.com/blog/wp-content/uploads/2019/09/MEAN-vs-MERN.jpg" alt="" />
+                <img data-aos="fade-down" className="bannerimg"  src="https://imgdb.net/storage/uploads/26d310e711fe6b59ce3c2163fe0ab50f73ee0d73665b77151750341e7cf21886.jpg" alt="" />
             </div>
             
         </div>

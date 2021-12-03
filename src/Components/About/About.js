@@ -10,7 +10,7 @@ const About = () => {
             
             <div className="container">
         <div className="m-5 row d-flex justify-content-between align-items-center">
-            <div className="col-md-5 about">
+            <div className="col-md-6 about">
                 <img data-aos="fade-right" className=" about-image" src="https://scontent.fdac5-2.fna.fbcdn.net/v/t1.6435-9/71307438_2419000931678254_266118325438775296_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=ihYfd-TgLZ0AX8Nzlns&_nc_ht=scontent.fdac5-2.fna&oh=a3fe6c032a94cd423fec658a82b03db8&oe=61CCBD9C" alt="" />
             </div>
             <div data-aos="fade-left" className="col-md-5 about-description">

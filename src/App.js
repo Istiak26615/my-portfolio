@@ -9,14 +9,24 @@ import Skills from './Components/Skills/Skills';
 import Contact from './Components/Contact/Contact';
 import Banner from './Components/Banner/Banner';
 import ProjectDetails from './Components/ProjectDetails/ProjectDetails';
+import Particles from "react-tsparticles";
 
 function App() {
+
+  const particlesInit = (main) => {
+    console.log(main);
+
+    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
+  };
+
+  const particlesLoaded = (container) => {
+    console.log(container);
+  };
+
   return (
     <div>
-    
-      <Router>
+    <Router>
       <Menubar></Menubar>
-      
         <Switch>
         <Route exact path="/">
         <Banner></Banner>

@@ -12,7 +12,7 @@ const Skills = () => {
         <div className=" container skills justify-content-center">
             <h1 className="text-center">Projects</h1>
                   
-        <div className="row">       
+        <div className="justify-content-center">       
             {
                 skills.map(skill=><Skill key={skill.id} skill={skill}></Skill>)
             }

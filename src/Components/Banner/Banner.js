@@ -1,7 +1,8 @@
 import React from 'react';
 import './Banner.css';
 import AOS from 'aos';
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
+
 
 const Banner = () => {
     AOS.init();

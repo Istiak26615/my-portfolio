@@ -3,20 +3,16 @@
     "projectType":"Fitness Equipemnt Selling Website",
     "technologies":"Javascript (ES6), React, Bootstrap, Node.js, Express js, MongoDB, Firebase Authentication, Heroku",
     "description":"A website to buy different fitness equipment based on clients choices. Users and admin has different roles. They can both do their particular jobs",
-    "image":"https://imgdb.net/storage/uploads/a0b72f30eb7620efb7407082af0f93de39fa627cecf17756ff79f4f2dd0bfeec.png"},
+    "image":"https://imgdb.net/storage/uploads/2e3711c92b414e2925e077f076cf62bca81f18f2626ca89ccf81d31cc8c57cb9.png"},
     {"id":"qwerty1","name":"Travelpoka",
     "projectType":"Travel Agency Website",
     "technologies":"Javascript(ES6), React, Bootstrap, Node.js, Express js, MongoDB, Firebase Authentication, Heroku",
     "description":"An website for travel agency where user can book tours, and check their own orders. And admin can see the orders or can delete the orders.",
-    "image":"https://images2.imgbox.com/03/eb/9VsjiqR1_o.png"},
-    {"id":"qwerty1","name":"Medix",
+    "image":"https://imgdb.net/storage/uploads/64aaf901c713b482eae7b42127ea0cb0a4c857b40f8bd848b2c81a96692696a7.png"},
+    {"id":"qwerty1","name":"Medixx",
     "projectType":"Online Medical Shop",
     "technologies":"Javascript (ES6), React, Bootstrap, Firebase Authentication,Vanilla CSS",
     "description":"A website to get appointment from different doctors based on users need. Users can buy medicines also from the site",
-    "image":"https://imgdb.net/storage/uploads/67e08a4ec635327e8a98fe238449f7f03eacb521eb77c739ddb6f45ad41e607b.png"},
-    {"id":"qwerty1","name":"No Limit Fitness",
-    "projectType":"Online Fitness Trainer",
-    "technologies":"Javascript (ES6), React, Bootstrap, Firebase Authentication,Vanilla CSS",
-    "description":"A website to buy different fitness course based on clients choices.",
-    "image":"https://imgdb.net/storage/uploads/c47ddc895ab7390c1365efe0092bd1d0dd0bbcd324428899c20157f7e9b861f7.png"}
+    "image":"https://imgdb.net/storage/uploads/522e2e7bcb54566dab65dc8cc95ed9be9356293b6d68cc7697a69f3054ebc25e.png"}
+    
 ]

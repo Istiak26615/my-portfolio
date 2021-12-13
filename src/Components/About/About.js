@@ -3,11 +3,14 @@ import './About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
+
 const About = () => {
     AOS.init();
+    
     return (
+        
         <div>
-            
+
             <div className="container">
         <div className="m-5 row d-flex justify-content-between align-items-center">
             <div className="col-md-6 about">
